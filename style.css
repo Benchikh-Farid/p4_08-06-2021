@@ -2,16 +2,19 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.text-center p{
+    font-size: 1.5em;
+    padding: 1em 0em;
+}
 a,
-button {
+/* button {
     transition: all .3s ease-in-out;
     outline: none!important;
-}
+} */
 
 a:hover {
     text-decoration: none;
@@ -28,7 +31,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /* width: 100%; */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -90,10 +93,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -277,11 +280,11 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
+/* .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
+} */
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -326,6 +329,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -848,13 +852,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +876,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +888,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
