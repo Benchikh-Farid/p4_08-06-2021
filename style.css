@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -102,9 +102,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+/* .d-bloc {
     color: rgba(255, 255, 255, .7);
-}
+} */
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -136,7 +136,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /* color: rgba(255, 255, 255, .6); */
 }
 
 .d-bloc .a-btn:hover,
@@ -219,7 +219,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
+/* .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -235,7 +235,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
-}
+} */
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -510,7 +510,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.4);
     box-shadow: none;
 }
 
@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    /* color: #575757!important; */
+    color: #575757!important;
 }
 
 .container {
@@ -783,7 +783,6 @@ h4 {
 }
 .tc-black{
     color: #F3976C;
-    font-size: 1.5em;
 }
 
 .btn-atomic-tangerine {
